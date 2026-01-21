@@ -39,6 +39,7 @@ header > h1 {
 header > p {
     padding-bottom: 50px;
     color: white;
+    font-family: var(--font1);
    }
 
 a {
@@ -63,6 +64,8 @@ section {
 section > p {
     padding-bottom: 2em;
 }
+
+
 
 .normal  {
     
@@ -105,4 +108,5 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: black;
+    font-family: var(--font1);
 }
