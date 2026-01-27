@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html , body {
+    width: 100vw;
+    height: 100vh;
+    background: black url("../imagens/fundo-madeira.jpg") top center no-repeat;
+    background-size: cover;
+    
+}
+
+#telefone {
+    background: url("../imagens/iphone.png") no-repeat;
+    height: 540px;
+    width: 268px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#links img {
+width: 50px;
+box-sizing: border-box;
+border-radius: 50%;
+box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.479);
+
+
+}
+a {
+    margin-right: 15px;
+    display: block;
+    text-align: right;
+}
+
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    transform: translate(-5px,-5px);
+    box-shadow: 15px 15px 18px;
+    transition: transform 0.5s, border .2s;
+}
+
+    
+
+iframe {
+    
+    height: 407px;
+    width: 233px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(-38%,-50%);
+    
+}
